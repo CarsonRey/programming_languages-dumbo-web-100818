@@ -9,7 +9,6 @@ def reformat_languages(languages)
   if hash.include?(type)
       hash[type][:style] << style
   else
-      
       hash[type] = value
       hash[type][:style] = []
       hash[type][:style] << style
